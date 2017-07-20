@@ -3,8 +3,9 @@ Those derived from LoGaRT extraction are in consistent formating with metadata f
 Those entered by hand are not yet in consistent formatting. Metadata entered by hand with source indicated.
 
 Derived from LoGaRT extraction:
-Guangdongtongzhi
-YuanSimingzhi
-ZHizhengJinglingxinzhi
+Wanli Guangdong tongzhi
+Yuan Simingzhi
+Zhizheng Jingling xinzhi
+Jiajing Chizhou fuzhi
 
 Entered by hand:
