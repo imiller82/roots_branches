@@ -1,0 +1,54 @@
+
+Regex for numbers. Includes banking characters and variants up to 99,999
+
+[一二三四五六七八九零〇壹貳叄叁參肆伍陸柒㭍捌玖]?[拾捨十]?[一二三四五六七八九零〇壹貳叄叁參肆伍陸柒㭍捌玖]?[萬]?[一二三四五六七八九零〇壹貳叄叁參肆伍陸柒㭍捌玖]?[千仟阡]?[一二三四五六七八九零〇壹貳叄叁參肆伍陸柒㭍捌玖]?[百伯]?[一二三四五六七八九零〇壹貳叄叁參肆伍陸柒㭍捌玖]?[十捨拾]?[一二三四五六七八九零〇壹貳叄叁參肆伍陸柒㭍捌玖十拾百伯千阡萬][正微臘]?
+
+
+Term lists/regex for tax and land survey data (best for Ming, works ok for Qing):
+
+Main categories of landholding:
+[官民學院尼僧道寺觀竈驛]
+[砂沙草蘆荒熟]
+[田地山塘漕湖河泊池蕩場溪土]
+
+Land units (area):
+頃畝畆分釐毫絲忽
+
+
+Main categories of land tax:
+(夏稅|秋糧|農桑|魚|茶){1,3}
+等?
+[課料糧米麥銀鈔]{0,4}
+
+Grain units (volume)
+石斗鬥升合勺
+
+Cash units (weight in silver):
+錠定兩両两錢分釐絲忽
+
+Weight (most others):
+斤兩両两錢分釐絲忽
+
+Other units (very incomplete):
+間閒引處段頭头張本名丁口匹疋隻副個箇條
+
+
+[Commuted] corvee:
+
+(里甲|均平|驛傳|民壮|徭差|徭役|實存人丁)
+折?銀?
+
+
+Miscellaneous taxes:
+
+(商稅|河渡|魚油|戶口鹽|解司軍餉|軍噐|軍器)
+額?外?
+[有無]?潤?
+[鈔料糧銀米麥]{0,4}
+
+
+
+Granaries:
+
+(本?府|各?縣|儒學|京)(存留)?[倉庫]
+[鈔料糧銀米麥]{0,4}
